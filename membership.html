@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Oxford Town Hall</title>
+	<link rel="shortcut icon" href="images/oxford_logo.jpg">
+	<link rel="stylesheet" href="styles/membership.css">
+</head>
+<body>
+	<header>
+		<img src="images/oxford.jpg" alt="Town Hall Logo" width="80" height="60">
+		<hgroup>
+			<h1>Oxford Town Hall</h1>
+			<h2>Bringing cutting-edge speakers to Oxford for 81 years!</h2>
+		</hgroup>
+	</header>
+	<nav id="nav_bar">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="">About Us</a></li>
+			<li><a href="tickets.html">Get Tickets</a></li>
+			<li><a class="current" href="membership.html">Membership</a></li>
+		</ul>
+	</nav>
+	<aside>
+
+		<h4>Add 2025-26 guest speakers (see completed membership page in the assignment instruction - page 8) </h4>
+		<!-- Add the codes for showing 2025-2026 speakers information to the sidebar as a table format. You can reuse some code in home.html and home.css -->
+		
+		<!-- Add Location header and Google Map here -->
+
+	</aside>
+	<article>
+		<h2>Become a Member</h2>
+		<form action="add your formspree.io code" method="post" name="registration_form" id="registration_form">
+			<fieldset>
+				<legend>Registration Information</legend>
+				<label for="email">E-Mail:</label>
+				<input type="email" name="email" id="email" autofocus required><br>
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" required placeholder="At least 6 letters or numbers"><br>
+				<label for="verify">Verify Password:</label>
+				<input type="password" name="verify" id="verify" required><br>
+			</fieldset>
+			<fieldset>
+				<legend> Membership Information </legend>
+				<h4> Add other information and text boxes shown in the completed membership screenshot in page 8 of the instruction <br><br><br><br><br><br></h4>
+			</fieldset>
+
+			<!-- Add the Member Information and Text Boxes shown in the handout -->
+
+			<fieldset id="buttons">
+				<legend>Submit Your Membership</legend>
+				<h4> Add the Reset Button shown in the completed membership screenshot in page 8 of the instruction</h4>
+				<label>&nbsp;</label>
+				<input type="submit" id="submit" value="Submit">
+
+				<!-- Add reset button here -->
+
+			</fieldset>
+		</form>
+	</article>
+	<footer>
+		<p>&copy; Copyright <span id="year"> </span> Oxford Town Hall.</p>
+		<script>
+			var d = new Date();
+			document.getElementById("year").innerHTML = d.getFullYear();
+		</script>
+	</footer>  
+</body>
+</html>
